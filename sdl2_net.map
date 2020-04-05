@@ -1,0 +1,894 @@
+Archive member included to satisfy reference by file (symbol)
+
+./libSDL2_net.a(SDLnet.o)     MorphOS/NET_stubs.o (SDLNet_Linked_Version)
+./libSDL2_net.a(SDLnetTCP.o)  MorphOS/NET_stubs.o (SDLNet_TCP_GetPeerAddress)
+./libSDL2_net.a(SDLnetUDP.o)  MorphOS/NET_stubs.o (SDLNet_UDP_Unbind)
+./libSDL2_net.a(SDLnetselect.o)
+                              MorphOS/NET_stubs.o (SDLNet_FreeSocketSet)
+../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_free.o)
+                              ./libSDL2_net.a(SDLnetTCP.o) (SDL_free)
+../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_malloc.o)
+                              ./libSDL2_net.a(SDLnetTCP.o) (SDL_malloc)
+../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memcpy.o)
+                              ./libSDL2_net.a(SDLnet.o) (SDL_memcpy)
+../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memset.o)
+                              ./libSDL2_net.a(SDLnetTCP.o) (SDL_memset)
+../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+                              ./libSDL2_net.a(SDLnetTCP.o) (SDL_SetError)
+../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+                              ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o) (AmiGetGLProc)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o)
+                              ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o) (fclose)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(calloc.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o) (calloc)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(malloc.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o) (malloc)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_MSTEP.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(malloc.o) (_MSTEP)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o) (freopen)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(free.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o) (free)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(errno.o)
+                              ./libSDL2_net.a(SDLnet.o) (errno)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__fflush.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o) (__fflush)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o) (open)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__isatty.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o) (isatty)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__seterrno.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o) (_OSERR)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(signal.o)
+                              ./libSDL2_net.a(SDLnet.o) (signal)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__signalfunc.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(signal.o) (__signalfunc)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(time.o)
+                              ./libSDL2_net.a(SDLnetUDP.o) (time)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fread.o)
+                              ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o) (fread)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fwrite.o)
+                              ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o) (fwrite)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(qsort.o)
+                              MorphOS/NET_library.o (qsort)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(rand.o)
+                              ./libSDL2_net.a(SDLnetUDP.o) (rand)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strcmp.o)
+                              ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o) (strcmp)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strlen.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o) (strlen)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memcpy.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o) (memcpy)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bzero.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(calloc.o) (bzero)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(time.o) (gettimeofday)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdv37.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o) (__stdiov37)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdwin.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o) (__stdiowin)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_wbenchmsg.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o) (_WBenchMsg)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(semaphore.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o) (__global_lock)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(write.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__fflush.o) (write)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fseeko64.o)
+                              ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o) (fseeko64)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(ftello64.o)
+                              ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o) (ftello64)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(lseek64.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(write.o) (lseek64)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat64.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fseeko64.o) (fstat64)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__swbuf.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fwrite.o) (__swbuf)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(raise.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(signal.o) (raise)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__srget.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fread.o) (__srget)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memset.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o) (memset)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__gmtoffset.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o) (__gmtoffset)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bcopy.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memcpy.o) (bcopy)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat64.o) (fstat)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(read.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__srget.o) (read)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat64.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat64.o) (__stat64)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat64.o) (datestamp_to_unixtime)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(getenv.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o) (getenv)
+/MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat.o)
+                              /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat.o) (__stat)
+
+Allocating common symbols
+Common symbol       size              file
+
+libnix_mempool      0x4               MorphOS/NET_startup.o
+libnix_timezone_UtilityBase
+                    0x4               /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+__tz53flag          0x4               /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+libnix_timezone_LocaleBase
+                    0x4               /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+TinyGLBase          0x4               ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+__tz                0x4               /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+__tglContext        0x4               ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+__tzdata            0x4               /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+__tzdata_gmt        0x4               /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000001                __abox__ = 0x1
+LOAD MorphOS/NET_library.o
+LOAD MorphOS/NET_startup.o
+LOAD MorphOS/NET_stubs.o
+LOAD ./libSDL2_net.a
+LOAD ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a
+LOAD /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libm.a
+LOAD /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/libb32/libnix/libgcc.a
+START GROUP
+LOAD /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a
+LOAD /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libabox.a
+LOAD /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libaboxstubs.a
+LOAD /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libauto.a
+END GROUP
+LOAD /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/libb32/libnix/libgcc.a
+                [!provide]                PROVIDE (__stack = 0x0)
+                [!provide]                PROVIDE (__machtype = 0x1)
+                0x00000054                . = SIZEOF_HEADERS
+
+.interp
+ *(.interp)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.dyn       0x00000054        0x0
+ .rela.iplt     0x00000054        0x0 MorphOS/NET_startup.o
+
+.rela.text      0x00000054        0x0
+ *(.rela.text)
+ .rela.text     0x00000054        0x0 MorphOS/NET_startup.o
+ *(.rela.gnu.linkonce.t*)
+
+.rela.got
+ *(.rela.got)
+
+.rela.got1
+ *(.rela.got1)
+
+.rela.got2
+ *(.rela.got2)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.init
+ *(.rela.init)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.plt
+ *(.rela.plt)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.gnu.linkonce.r*)
+
+.rela.sdata
+ *(.rela.data)
+ *(.rela.gnu.linkonce.d*)
+ *(.rela.sdata)
+
+.rela.sbss
+ *(.rela.sbss)
+ *(.rela.bss)
+
+.rela.sdata2
+ *(.rela.sdata2)
+
+.rela.sbss2
+ *(.rela.sbss2)
+
+.text           0x00000000     0xf3e4
+                [!provide]                PROVIDE (__text_start = .)
+ *(.text)
+ .text          0x00000000      0x83c MorphOS/NET_library.o
+                0x00000158                LIB_Expunge
+                0x00000174                select
+                0x000001c8                LIB_Open
+                0x00000508                LIB_Close
+                0x00000640                LIB_Init
+                0x000007c0                RomTag
+ *fill*         0x0000083c        0x0 00000000
+ .text          0x0000083c      0x12c MorphOS/NET_startup.o
+                0x00000844                AMIGA_Startup
+                0x000008dc                AMIGA_Cleanup
+                0x00000960                __chkabort
+                0x00000964                abort
+ .text          0x00000968      0x588 MorphOS/NET_stubs.o
+                0x00000970                LIB_SDLNet_FreeSocketSet
+                0x0000099c                LIB_SDLNet_CheckSockets
+                0x000009c8                LIB_SDLNet_DelSocket
+                0x000009f4                LIB_SDLNet_AddSocket
+                0x00000a20                LIB_SDLNet_AllocSocketSet
+                0x00000a4c                LIB_SDLNet_UDP_Close
+                0x00000a78                LIB_SDLNet_UDP_Recv
+                0x00000aa4                LIB_SDLNet_UDP_RecvV
+                0x00000ad0                LIB_SDLNet_UDP_Send
+                0x00000afc                LIB_SDLNet_UDP_SendV
+                0x00000b28                LIB_SDLNet_UDP_GetPeerAddress
+                0x00000b54                LIB_SDLNet_UDP_Unbind
+                0x00000b80                LIB_SDLNet_UDP_Bind
+                0x00000bac                LIB_SDLNet_UDP_SetPacketLoss
+                0x00000bd8                LIB_SDLNet_UDP_Open
+                0x00000c04                LIB_SDLNet_FreePacketV
+                0x00000c30                LIB_SDLNet_AllocPacketV
+                0x00000c5c                LIB_SDLNet_FreePacket
+                0x00000c88                LIB_SDLNet_ResizePacket
+                0x00000cb4                LIB_SDLNet_AllocPacket
+                0x00000ce0                LIB_SDLNet_TCP_Close
+                0x00000d0c                LIB_SDLNet_TCP_Recv
+                0x00000d38                LIB_SDLNet_TCP_Send
+                0x00000d64                LIB_SDLNet_TCP_GetPeerAddress
+                0x00000d90                LIB_SDLNet_TCP_Accept
+                0x00000dbc                LIB_SDLNet_TCP_Open
+                0x00000de8                LIB_SDLNet_GetLocalAddresses
+                0x00000e14                LIB_SDLNet_ResolveIP
+                0x00000e40                LIB_SDLNet_ResolveHost
+                0x00000e6c                LIB_SDLNet_Quit
+                0x00000e98                LIB_SDLNet_Init
+                0x00000ec4                LIB_SDLNet_Linked_Version
+ .text          0x00000ef0      0x478 ./libSDL2_net.a(SDLnet.o)
+                0x00000ef0                SDLNet_Linked_Version
+                0x00000f14                SDLNet_GetLastError
+                0x00000f20                SDLNet_SetLastError
+                0x00000f2c                SDLNet_ResolveIP
+                0x00000fd4                SDLNet_GetLocalAddresses
+                0x0000115c                SDLNet_Write16
+                0x00001164                SDLNet_Write32
+                0x0000116c                SDLNet_Read16
+                0x00001174                SDLNet_Read32
+                0x0000117c                SDLNet_ResolveHost
+                0x00001270                SDLNet_Quit
+                0x000012e0                SDLNet_Init
+ .text          0x00001368      0x6c4 ./libSDL2_net.a(SDLnetTCP.o)
+                0x00001368                SDLNet_TCP_GetPeerAddress
+                0x00001380                SDLNet_TCP_Close
+                0x000013e0                SDLNet_TCP_Recv
+                0x000014b8                SDLNet_TCP_Send
+                0x000015a8                SDLNet_TCP_Accept
+                0x00001730                SDLNet_TCP_Open
+ .text          0x00001a2c      0xcbc ./libSDL2_net.a(SDLnetUDP.o)
+                0x00001a2c                SDLNet_UDP_Unbind
+                0x00001a48                SDLNet_UDP_Close
+                0x00001aa8                SDLNet_FreePacket
+                0x00001ae4                SDLNet_FreePacketV
+                0x00001b40                SDLNet_UDP_RecvV
+                0x00001df0                SDLNet_UDP_Recv
+                0x00001e20                SDLNet_UDP_GetPeerAddress
+                0x00001e8c                SDLNet_UDP_Bind
+                0x00001f80                SDLNet_UDP_SendV
+                0x000021dc                SDLNet_UDP_Send
+                0x00002210                SDLNet_UDP_SetPacketLoss
+                0x0000226c                SDLNet_ResizePacket
+                0x000022f0                SDLNet_AllocPacket
+                0x00002384                SDLNet_AllocPacketV
+                0x00002464                SDLNet_UDP_Open
+ .text          0x000026e8      0x430 ./libSDL2_net.a(SDLnetselect.o)
+                0x000026e8                SDLNet_FreeSocketSet
+                0x00002724                SDLNet_CheckSockets
+                0x00002914                SDLNet_DelSocket
+                0x00002a00                SDLNet_AddSocket
+                0x00002a78                SDLNet_AllocSocketSet
+ .text          0x00002b18       0x14 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_free.o)
+                0x00002b18                SDL_free
+ .text          0x00002b2c       0x14 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_malloc.o)
+                0x00002b2c                SDL_malloc
+ .text          0x00002b40       0x14 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memcpy.o)
+                0x00002b40                SDL_memcpy
+ .text          0x00002b54       0x14 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memset.o)
+                0x00002b54                SDL_memset
+ .text          0x00002b68     0x11a0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+                0x00002b68                __SDL2_OpenLibError
+                0x00002c60                _INIT_4_SDL2Base
+                0x00002e14                _EXIT_4_SDL2Base
+                0x00002edc                SDL_setenv
+                0x0000300c                SDL_RWFromFP
+                0x00003068                SDL_GL_GetProcAddress
+                0x00003324                SDL_getenv
+                0x00003324                _getenv
+                0x000035c0                SDL_LogMessage
+                0x00003660                SDL_LogCritical
+                0x0000370c                SDL_LogError
+                0x000037b8                SDL_LogWarn
+                0x00003864                SDL_LogInfo
+                0x00003910                SDL_LogDebug
+                0x000039bc                SDL_LogVerbose
+                0x00003a68                SDL_Log
+                0x00003b1c                SDL_SetError
+                0x00003bc4                SDL_snprintf
+                0x00003c64                SDL_sscanf
+ .text          0x00003d08     0x6e54 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+                0x0000aae0                AmiGetGLProc
+ .text          0x0000ab5c      0x27c /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o)
+                0x0000ab5c                fopen
+                0x0000ac94                fclose
+                0x0000ad7c                __DSTP___exitstdfio
+ .text          0x0000add8       0x58 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(calloc.o)
+                0x0000add8                calloc
+ .text          0x0000ae30      0x150 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(malloc.o)
+                0x0000ae30                malloc
+                0x0000af18                __DSTP___exitmalloc
+ .text          0x0000af80        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_MSTEP.o)
+ .text          0x0000af80      0x2cc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o)
+                0x0000af80                freopen
+ .text          0x0000b24c       0x70 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(free.o)
+                0x0000b24c                free
+ .text          0x0000b2bc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(errno.o)
+ .text          0x0000b2bc       0xc8 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__fflush.o)
+                0x0000b2bc                __fflush
+ .text          0x0000b384     0x184c /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+                0x0000b384                __get_handle
+                0x0000b440                __set_handle
+                0x0000b50c                __get_fd_position
+                0x0000b5dc                __set_fd_position
+                0x0000b6cc                __modify_fd_position
+                0x0000b9e4                __CSTP___initstdio
+                0x0000bd28                __DSTP___exitstdio
+                0x0000c008                __open
+                0x0000c008                open
+                0x0000c320                __dup
+                0x0000c320                dup
+                0x0000c4d0                __dup2
+                0x0000c4d0                dup2
+                0x0000c6ac                fcntl
+                0x0000caac                __close
+                0x0000caac                close
+ .text          0x0000cbd0       0x50 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__isatty.o)
+                0x0000cbd0                isatty
+ .text          0x0000cc20       0xa8 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__seterrno.o)
+                0x0000cc20                __seterrno
+ .text          0x0000ccc8       0x8c /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(signal.o)
+                0x0000ccc8                signal
+ .text          0x0000cd54        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__signalfunc.o)
+ .text          0x0000cd54       0x48 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(time.o)
+                0x0000cd54                time
+ .text          0x0000cd9c      0x170 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fread.o)
+                0x0000cd9c                fread
+ .text          0x0000cf0c      0x148 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fwrite.o)
+                0x0000cf0c                fwrite
+ .text          0x0000d054      0x20c /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(qsort.o)
+                0x0000d054                qsort
+ .text          0x0000d260       0x74 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(rand.o)
+                0x0000d260                rand_r
+                0x0000d2a0                rand
+                0x0000d2c8                srand
+ .text          0x0000d2d4       0x28 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strcmp.o)
+                0x0000d2d4                strcmp
+ .text          0x0000d2fc       0x20 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strlen.o)
+                0x0000d2fc                strlen
+ .text          0x0000d31c       0x6c /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memcpy.o)
+                0x0000d31c                memcpy
+ .text          0x0000d388       0xbc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bzero.o)
+                0x0000d388                bzero
+ .text          0x0000d444      0x1a0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o)
+                0x0000d4f4                gettimeofday
+ .text          0x0000d5e4        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdv37.o)
+ .text          0x0000d5e4        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdwin.o)
+ .text          0x0000d5e4        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_wbenchmsg.o)
+ .text          0x0000d5e4        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(semaphore.o)
+ .text          0x0000d5e4      0x188 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(write.o)
+                0x0000d5e4                __write
+                0x0000d5e4                write
+ .text          0x0000d76c      0x2c0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fseeko64.o)
+                0x0000d76c                fseeko64
+ .text          0x0000da2c       0xdc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(ftello64.o)
+                0x0000da2c                ftello64
+ .text          0x0000db08      0x2dc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(lseek64.o)
+                0x0000db08                lseek64
+ .text          0x0000dde4      0x300 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat64.o)
+                0x0000dde4                fstat64
+ .text          0x0000e0e4      0x1c8 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__swbuf.o)
+                0x0000e0e4                __swbuf
+ .text          0x0000e2ac      0x154 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(raise.o)
+                0x0000e2ac                raise
+ .text          0x0000e400      0x1dc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__srget.o)
+                0x0000e400                __srget
+ .text          0x0000e5dc       0xcc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memset.o)
+                0x0000e5dc                memset
+ .text          0x0000e6a8        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__gmtoffset.o)
+ .text          0x0000e6a8      0x1f0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bcopy.o)
+                0x0000e6a8                bcopy
+ .text          0x0000e898      0x240 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat.o)
+                0x0000e898                fstat
+ .text          0x0000ead8       0xe4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(read.o)
+                0x0000ead8                __read
+                0x0000ead8                read
+ .text          0x0000ebbc      0x184 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat64.o)
+                0x0000ebbc                __stat64
+ .text          0x0000ed40      0x480 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+                0x0000ed40                tz_gmtime
+                0x0000ed90                tz_localtime_z
+                0x0000ede0                tz_mktime_z
+                0x0000ee2c                datestamp_to_unixtime
+                0x0000ef70                __CSTP___inittimezone
+                0x0000f0f4                __DSTP___exittimezone
+ .text          0x0000f1c0       0xf0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(getenv.o)
+                0x0000f1c0                getenv
+                0x0000f1c0                __getenv
+ .text          0x0000f2b0      0x134 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat.o)
+                0x0000f2b0                __stat
+ *(.text.*)
+ *(.eh_frame*)
+ .eh_frame      0x0000f3e4        0x0 MorphOS/NET_startup.o
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+                [!provide]                PROVIDE (__text_end = .)
+                [!provide]                PROVIDE (__text_size = SIZEOF (.text))
+
+.glink          0x0000f440        0x0
+ .glink         0x0000f440        0x0 MorphOS/NET_startup.o
+
+.iplt           0x0000f440        0x0
+ .iplt          0x0000f440        0x0 MorphOS/NET_startup.o
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+                0x0000f3e4                _etext = .
+                [!provide]                PROVIDE (etext = .)
+
+.sdata2         0x0000f438        0x0
+ *(.sdata2)
+ .sdata2        0x0000f438        0x0 MorphOS/NET_startup.o
+
+.sbss2
+ *(.sbss2)
+
+.got1
+ *(.got1)
+
+.dynamic
+ *(.dynamic)
+                [!provide]                PROVIDE (_GOT2_START_ = .)
+
+.got2
+ *(.got2)
+                [!provide]                PROVIDE (__CTOR_LIST__ = .)
+
+.ctors
+ *(.ctors)
+                [!provide]                PROVIDE (__CTOR_END__ = .)
+                [!provide]                PROVIDE (__DTOR_LIST__ = .)
+
+.dtors
+ *(.dtors)
+                [!provide]                PROVIDE (__DTOR_END__ = .)
+                [!provide]                PROVIDE (_FIXUP_START_ = .)
+
+.fixup
+ *(.fixup)
+                [!provide]                PROVIDE (_FIXUP_END_ = .)
+                [!provide]                PROVIDE (_GOT2_END_ = .)
+                [!provide]                PROVIDE (_GOT_START_ = .)
+
+.got
+ *(.got)
+
+.got.plt
+ *(.got.plt)
+                [!provide]                PROVIDE (_GOT_END_ = .)
+
+.rodata         0x00000000      0xe5b
+ *(.rodata)
+ .rodata        0x00000000       0xcc MorphOS/NET_library.o
+ .rodata        0x000000cc       0x1d ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+ *fill*         0x000000e9        0x3 
+ .rodata        0x000000ec      0xd18 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+ .rodata        0x00000e04       0x14 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+ .rodata        0x00000e18        0xd /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o)
+ *fill*         0x00000e25        0x3 
+ .rodata        0x00000e28        0xa /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(raise.o)
+ *fill*         0x00000e32        0x2 
+ .rodata        0x00000e34       0x27 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+
+.rodata.str1.4  0x00000000     0x1b02
+ .rodata.str1.4
+                0x00000000       0x1c MorphOS/NET_library.o
+ .rodata.str1.4
+                0x0000001c       0xf2 ./libSDL2_net.a(SDLnetTCP.o)
+ *fill*         0x0000010e        0x2 
+ .rodata.str1.4
+                0x00000110       0x6a ./libSDL2_net.a(SDLnetUDP.o)
+                                 0xae (size before relaxing)
+ *fill*         0x0000017a        0x2 
+ .rodata.str1.4
+                0x0000017c       0x32 ./libSDL2_net.a(SDLnetselect.o)
+ *fill*         0x000001ae        0x2 
+ .rodata.str1.4
+                0x000001b0       0x61 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+ *fill*         0x00000211        0x3 
+ .rodata.str1.4
+                0x00000214     0x18ee ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+
+.rodata.cst4    0x00000000       0x14
+ .rodata.cst4   0x00000000       0x14 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+
+.sdata          0x00000000      0x178
+                0x00000000                __sdata_start = .
+ *(.data)
+ .data          0x00000000        0x0 MorphOS/NET_library.o
+ .data          0x00000000        0x0 MorphOS/NET_startup.o
+ .data          0x00000000        0x0 MorphOS/NET_stubs.o
+ .data          0x00000000        0x0 ./libSDL2_net.a(SDLnet.o)
+ .data          0x00000000        0x0 ./libSDL2_net.a(SDLnetTCP.o)
+ .data          0x00000000        0x0 ./libSDL2_net.a(SDLnetUDP.o)
+ .data          0x00000000        0x0 ./libSDL2_net.a(SDLnetselect.o)
+ .data          0x00000000        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_free.o)
+ .data          0x00000000        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_malloc.o)
+ .data          0x00000000        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memcpy.o)
+ .data          0x00000000        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memset.o)
+ .data          0x00000000        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+ .data          0x00000000        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+ .data          0x00000000        0xc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o)
+                0x00000000                __filelist
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(calloc.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(malloc.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_MSTEP.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(free.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(errno.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__fflush.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+ .data          0x0000000c        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__isatty.o)
+ .data          0x0000000c       0xcc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__seterrno.o)
+ .data          0x000000d8        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(signal.o)
+ .data          0x000000d8       0x18 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__signalfunc.o)
+                0x000000d8                __signalfunc
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(time.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fread.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fwrite.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(qsort.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(rand.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strcmp.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strlen.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memcpy.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bzero.o)
+ .data          0x000000f0        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o)
+ .data          0x000000f0       0x14 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdv37.o)
+                0x000000f0                __stdiov37
+ .data          0x00000104       0x14 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdwin.o)
+                0x00000104                __stdiowin
+ .data          0x00000118        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_wbenchmsg.o)
+ .data          0x00000118       0x2e /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(semaphore.o)
+                0x00000118                __global_lock
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(write.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fseeko64.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(ftello64.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(lseek64.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat64.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__swbuf.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(raise.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__srget.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memset.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__gmtoffset.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bcopy.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(read.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat64.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(getenv.o)
+ .data          0x00000146        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat.o)
+ *(.data.*)
+ *(.data1)
+ *(.data1.*)
+ *(.data.rel)
+ *(.data.rel.local)
+                0x00000146                __small_start = .
+ *(.sdata)
+ *fill*         0x00000146        0x2 
+ .sdata         0x00000148        0x4 MorphOS/NET_library.o
+ .sdata         0x0000014c        0x0 MorphOS/NET_startup.o
+                0x0000814c                _SDA_BASE_
+ .sdata         0x0000014c        0x4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_MSTEP.o)
+                0x0000014c                _MSTEP
+ .sdata         0x00000150        0x4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(errno.o)
+                0x00000150                errno
+ .sdata         0x00000154        0x8 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+ .sdata         0x0000015c        0x4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__seterrno.o)
+                0x0000015c                _OSERR
+ .sdata         0x00000160        0x8 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__signalfunc.o)
+                0x00000160                __signalpending
+                0x00000164                __signalmask
+ .sdata         0x00000168        0x4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(rand.o)
+ .sdata         0x0000016c        0x4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o)
+ .sdata         0x00000170        0x4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_wbenchmsg.o)
+                0x00000170                _WBenchMsg
+ .sdata         0x00000174        0x4 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__gmtoffset.o)
+                0x00000174                __gmtoffset
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x00008000                PROVIDE (__r13_init = (__sdata_start + 0x8000))
+                [!provide]                PROVIDE (__sdata_end = .)
+                0x00000178                _edata = .
+                [!provide]                PROVIDE (edata = .)
+
+.ctdt           0x00000000       0x48
+ .ctdt          0x00000000        0x8 MorphOS/NET_library.o
+ .ctdt          0x00000008       0x10 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+                0x00000008                _CSTP_init_SDL2Base
+                0x00000010                _DSTP_cleanup_SDL2Base
+ .ctdt          0x00000018        0x8 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o)
+                0x00000018                _DSTP___exitstdfio
+ .ctdt          0x00000020        0x8 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(malloc.o)
+                0x00000020                _DSTP___exitmalloc
+ .ctdt          0x00000028       0x10 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+                0x00000028                _CSTP___initstdio
+                0x00000030                _DSTP___exitstdio
+ .ctdt          0x00000038       0x10 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+                0x00000038                _CSTP___inittimezone
+                0x00000040                _DSTP___exittimezone
+
+.branch_lt      0x00011f6c        0x0
+ .branch_lt     0x00011f6c        0x0 MorphOS/NET_startup.o
+
+.sbss           0x00000178       0x54
+                0x00000178                __sbss_start = .
+ *(.sbss)
+ .sbss          0x00000178       0x10 MorphOS/NET_library.o
+                0x00000178                SysBase
+                0x0000017c                DOSBase
+                0x00000180                SDL2Base
+                0x00000184                SocketBase
+ .sbss          0x00000188        0x4 MorphOS/NET_startup.o
+                0x00000188                ThisRequiresConstructorHandling
+ .sbss          0x0000018c        0x4 MorphOS/NET_startup.o
+                0x0000018c                libnix_mempool
+ .sbss          0x00000190        0x8 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+                0x00000190                TinyGLBase
+                0x00000194                __tglContext
+ .sbss          0x00000198        0xc /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+ .sbss          0x000001a4       0x18 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+                0x000001a4                libnix_timezone_UtilityBase
+                0x000001a8                __tz53flag
+                0x000001ac                libnix_timezone_LocaleBase
+                0x000001b0                __tz
+                0x000001b4                __tzdata
+                0x000001b8                __tzdata_gmt
+ *(.sbss.*)
+ *(.scommon)
+ *(.gnu.linkonce.sb.*)
+ *(.dynsbss)
+ *(.bss)
+ .bss           0x000001bc        0x0 MorphOS/NET_library.o
+ .bss           0x000001bc        0x0 MorphOS/NET_startup.o
+ .bss           0x000001bc        0x0 MorphOS/NET_stubs.o
+ .bss           0x000001bc        0x7 ./libSDL2_net.a(SDLnet.o)
+ .bss           0x000001c3        0x0 ./libSDL2_net.a(SDLnetTCP.o)
+ .bss           0x000001c3        0x0 ./libSDL2_net.a(SDLnetUDP.o)
+ .bss           0x000001c3        0x0 ./libSDL2_net.a(SDLnetselect.o)
+ .bss           0x000001c3        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_free.o)
+ .bss           0x000001c3        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_malloc.o)
+ .bss           0x000001c3        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memcpy.o)
+ .bss           0x000001c3        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_memset.o)
+ *fill*         0x000001c3        0x1 
+ .bss           0x000001c4        0x8 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+ .bss           0x000001cc        0x0 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(calloc.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(malloc.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_MSTEP.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(free.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(errno.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__fflush.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__isatty.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__seterrno.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(signal.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__signalfunc.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(time.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fread.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fwrite.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(qsort.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(rand.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strcmp.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strlen.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memcpy.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bzero.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdv37.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdwin.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_wbenchmsg.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(semaphore.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(write.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fseeko64.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(ftello64.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(lseek64.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat64.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__swbuf.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(raise.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__srget.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memset.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__gmtoffset.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bcopy.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(read.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat64.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(getenv.o)
+ .bss           0x000001cc        0x0 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat.o)
+ *(.bss.*)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                [!provide]                PROVIDE (__sbss_end = .)
+                0x000001c0                PROVIDE (__sdata_size = (__sbss_start - __sdata_start))
+                0x00000054                PROVIDE (__sbss_size = SIZEOF (.sbss))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(sdl2_net.library.db elf32-morphos)
+
+.comment        0x00000000      0x722
+ .comment       0x00000000       0x19 MorphOS/NET_library.o
+                                 0x1a (size before relaxing)
+ .comment       0x00000019       0x1a MorphOS/NET_startup.o
+ .comment       0x00000019       0x1a MorphOS/NET_stubs.o
+ .comment       0x00000019       0x1a ./libSDL2_net.a(SDLnet.o)
+ .comment       0x00000019       0x1a ./libSDL2_net.a(SDLnetTCP.o)
+ .comment       0x00000019       0x1a ./libSDL2_net.a(SDLnetUDP.o)
+ .comment       0x00000019       0x1a ./libSDL2_net.a(SDLnetselect.o)
+ .comment       0x00000019       0x1a ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+ .comment       0x00000019       0x1a ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)
+ .comment       0x00000019       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fopen.o)
+ .comment       0x0000004e       0x34 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(calloc.o)
+                                 0x35 (size before relaxing)
+ .comment       0x00000082       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(malloc.o)
+ .comment       0x00000082       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_MSTEP.o)
+ .comment       0x000000b7       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(freopen.o)
+ .comment       0x000000ec       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(free.o)
+ .comment       0x00000121       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(errno.o)
+ .comment       0x00000156       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__fflush.o)
+ .comment       0x0000018b       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(open.o)
+ .comment       0x000001c0       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__isatty.o)
+ .comment       0x000001f5       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__seterrno.o)
+ .comment       0x0000022a       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(signal.o)
+ .comment       0x0000022a       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__signalfunc.o)
+ .comment       0x0000025f       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(time.o)
+ .comment       0x00000294       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fread.o)
+ .comment       0x000002c9       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fwrite.o)
+ .comment       0x000002fe       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(qsort.o)
+ .comment       0x00000333       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(rand.o)
+ .comment       0x00000368       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strcmp.o)
+ .comment       0x0000039d       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(strlen.o)
+ .comment       0x000003d2       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memcpy.o)
+ .comment       0x00000407       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bzero.o)
+ .comment       0x00000407       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(gettimeofday.o)
+ .comment       0x00000407       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdv37.o)
+ .comment       0x0000043c       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stdwin.o)
+ .comment       0x00000471       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(_wbenchmsg.o)
+ .comment       0x000004a6       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(semaphore.o)
+ .comment       0x000004a6       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(write.o)
+ .comment       0x000004db       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fseeko64.o)
+ .comment       0x00000510       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(ftello64.o)
+ .comment       0x00000545       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(lseek64.o)
+ .comment       0x0000057a       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat64.o)
+ .comment       0x000005af       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__swbuf.o)
+ .comment       0x000005e4       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(raise.o)
+ .comment       0x000005e4       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__srget.o)
+ .comment       0x000005e4       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(memset.o)
+ .comment       0x00000619       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__gmtoffset.o)
+ .comment       0x0000064e       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(bcopy.o)
+ .comment       0x00000683       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(fstat.o)
+ .comment       0x000006b8       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(read.o)
+ .comment       0x000006ed       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat64.o)
+ .comment       0x000006ed       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(timezone.o)
+ .comment       0x000006ed       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(getenv.o)
+ .comment       0x00000722       0x35 /MorphOS/Development/gg/bin/../lib/gcc-lib/ppc-morphos/4.4.5/../../../../ppc-morphos/lib/libb32/libnix/libc.a(__stat.o)
+
+.gnu.attributes
+                0x00000000       0x14
+ .gnu.attributes
+                0x00000000       0x14 MorphOS/NET_library.o
+ .gnu.attributes
+                0x00000014       0x14 MorphOS/NET_startup.o
+ .gnu.attributes
+                0x00000028       0x14 MorphOS/NET_stubs.o
+ .gnu.attributes
+                0x0000003c       0x14 ./libSDL2_net.a(SDLnet.o)
+ .gnu.attributes
+                0x00000050       0x14 ./libSDL2_net.a(SDLnetTCP.o)
+ .gnu.attributes
+                0x00000064       0x14 ./libSDL2_net.a(SDLnetUDP.o)
+ .gnu.attributes
+                0x00000078       0x14 ./libSDL2_net.a(SDLnetselect.o)
+ .gnu.attributes
+                0x0000008c       0x14 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(sdl-startup-brel.o)
+ .gnu.attributes
+                0x000000a0       0x14 ../SDL-mos-sdl2/src/core/morphos/devenv/lib/libb32/libSDL2.a(SDL_amigagl_wrapper-brel.o)

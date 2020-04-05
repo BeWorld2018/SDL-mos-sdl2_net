@@ -1,0 +1,74 @@
+# Makefile to build the SDL2_NET library
+
+CDEFS   = -DAROS_ALMOST_COMPATIBLE -DUSE_INLINE_STDARG
+CC      = ppc-morphos-gcc-4 -noixemul
+
+INCLUDE = -I../SDL-mos-sdl2/include
+CFLAGS  = -mcpu=750 -O2 $(INCLUDE) -mresident32 -Wall -Wno-pointer-sign -fno-strict-aliasing -mfused-madd -fschedule-insns2 -ffast-math $(CDEFS)
+AR	= ppc-morphos-ar
+
+ECHE = echo -e
+BOLD = \033[1m
+NRML = \033[22m
+
+COMPILING = @$(ECHE) "compiling $(BOLD)$@$(NRML)..."
+LINKING = @$(ECHE) "linking $(BOLD)$@$(NRML)..."
+STRIPPING = @$(ECHE) "stripping $(BOLD)$@$(NRML)..."
+ARCHIVING = @$(ECHE) "archiving $(BOLD)$@$(NRML)..."
+HEADERING = @$(ECHE) "creating headers files $(BOLD)$@$(NRML)..."
+
+TARGET  = libSDL2_net.a
+LIBRARY = sdl2_net.library
+
+SOURCES = SDLnet.o  SDLnetTCP.o  SDLnetUDP.o  SDLnetselect.o	
+		
+CORESOURCES = MorphOS/*.c
+COREOBJECTS = $(shell echo $(CORESOURCES) | sed -e 's,\.c,\.o,g')
+
+OBJECTS = $(shell echo $(SOURCES) | sed -e 's,\.c,\.o,g')
+
+all: $(LIBRARY) sdklibs $(TESTS)
+
+sdklibs:
+	@cd MorphOS/devenv; if ! $(MAKE) all; then exit 1; fi;
+
+sdk: sdklibs
+	mkdir -p /usr/local/include/SDL2
+	mkdir -p /usr/local/lib
+	mkdir -p /usr/local/lib/libb32
+	cp SDL_net.h /usr/local/include/SDL2/SDL_net.h
+	cp MorphOS/devenv/lib/libSDL2_net.a  /usr/local/lib/libSDL2_net.a
+	cp MorphOS/devenv/lib/libb32/libSDL2_net.a  /usr/local/lib/libb32/libSDL2_net.a
+
+headers:
+	$(HEADERING)
+	@cvinclude.pl --fd=MorphOS/sdk/fd/sdl2_net_lib.fd --clib=MorphOS/sdk/clib/sdl2_net_protos.h --proto=MorphOS/sdk/proto/sdl2_net_.h
+	@cvinclude.pl --fd=MorphOS/sdk/fd/sdl2_net_lib.fd --clib=MorphOS/sdk/clib/sdl2_net_protos.h --inline=MorphOS/sdk/ppcinline/sdl2_net_.h
+	
+install: $(LIBRARY)
+	@cp $(LIBRARY) LIBS:
+	-flushlib $(LIBRARY)
+
+MorphOS/NET_library.o: MorphOS/NET_library.c MorphOS/NET_library.h MorphOS/NET_stubs.h
+	$(COMPILING)
+	$(CC) -mcpu=750 -O2 $(INCLUDE) -Wall -fno-strict-aliasing -DAROS_ALMOST_COMPATIBLE -o $@ -c $*.c
+
+$(TARGET): $(OBJECTS)
+	$(ARCHIVING)
+	@$(AR) crvs $@ $^
+
+$(LIBRARY): $(TARGET) $(COREOBJECTS)
+	$(LINKING)
+	$(CC) -nostartfiles -mresident32 -Wl,-Map=sdl2_net.map $(COREOBJECTS) -o $@.db -L. -lSDL2_net -L../SDL-mos-sdl2/src/core/morphos/devenv/lib -lSDL2 -lm
+	$(STRIPPING)
+	@ppc-morphos-strip -o $@ --remove-section=.comment $@.db
+
+showinterfaces: showinterfaces.c
+	$(COMPILING)
+	$(CC) -noixemul -O2 -Wall -o $@ $@.c -I. -I../SDL-mos-sdl2/include -DUSE_INLINE_STDARG -LMorphOS/devenv/lib -L../SDL-mos-sdl2/src/core/morphos/devenv/lib -lSDL2_net -lSDL2 
+	
+clean:
+	rm -f $(LIBRARY) $(TARGET) $(OBJECTS) $(COREOBJECTS) *.db *.s
+
+dump:
+	ppc-morphos --disassemble-all --reloc $(LIBRARY).db >$(LIBRARY).s
