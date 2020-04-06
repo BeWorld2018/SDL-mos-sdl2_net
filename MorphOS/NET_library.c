@@ -22,6 +22,7 @@ struct ExecBase   *SysBase  = NULL;
 struct DosLibrary *DOSBase  = NULL;
 struct Library    *SDL2Base = NULL;
 struct Library *SocketBase = NULL;
+struct Library *SDL2NetBase = NULL;
 
 /**********************************************************************
 	LIB_Reserved
@@ -160,6 +161,8 @@ static void UserLibClose(struct SDL2NetLibrary *LibBase, struct ExecBase *SysBas
 {
 	CloseLibrary(SDL2Base);
 	SDL2Base = NULL;
+	CloseLibrary(SocketBase);
+	SocketBase = NULL;
 }
 
 /**********************************************************************
