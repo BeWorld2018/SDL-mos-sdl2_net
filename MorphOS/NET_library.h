@@ -1,5 +1,5 @@
-#ifndef SDL_NET_LIBRARY_H
-#define SDL_NET_LIBRARY_H
+#ifndef SDL2_NET_LIBRARY_H
+#define SDL2_NET_LIBRARY_H
 
 #ifndef DOS_DOS_H
 #include <dos/dos.h>
@@ -64,4 +64,4 @@ struct SDL2NetLibrary
 	APTR last_ctdt;
 };
 
-#endif /* SDL_NET_LIBRARY_H */
+#endif /* SDL2_NET_LIBRARY_H */

@@ -9,6 +9,8 @@
 #include <proto/exec.h>
 #include <proto/socket.h>
 
+#include <SDL.h>
+
 #include "NET_version.h"
 #include "NET_library.h"
 #include "NET_startup.h"
@@ -19,7 +21,7 @@ STATIC CONST TEXT libname[] = "sdl2_net.library";
 struct ExecBase   *SysBase  = NULL;
 struct DosLibrary *DOSBase  = NULL;
 struct Library    *SDL2Base = NULL;
-struct Library    *SocketBase = NULL;
+struct Library *SocketBase = NULL;
 
 /**********************************************************************
 	LIB_Reserved
@@ -157,10 +159,7 @@ static BPTR DeleteLib(struct SDL2NetLibrary *LibBase, struct ExecBase *SysBase)
 static void UserLibClose(struct SDL2NetLibrary *LibBase, struct ExecBase *SysBase)
 {
 	CloseLibrary(SDL2Base);
-	CloseLibrary(SocketBase);
-
 	SDL2Base = NULL;
-	SocketBase = NULL;
 }
 
 /**********************************************************************
@@ -255,7 +254,7 @@ struct Library *LIB_Open(void)
 	{
 		if (((SDL2Base = OpenLibrary("sdl2.library",  0)) != NULL))
 		{
-			LibBase->Alloc = 1;
+			LibBase->Alloc = 1;		
 		}
 		else
 		{
@@ -375,10 +374,22 @@ const struct Resident __TEXTSEGMENT__ RomTag =
 	REVISION, NULL
 };
 
-int select(int nfds, fd_set *readfds, fd_set *writefds, fd_set *exeptfds, struct timeval *timeout)
-{
-  return WaitSelect(nfds, readfds, writefds, exeptfds, timeout, NULL);
-}
+typedef struct {
+	Uint32 host;			/* 32-bit IPv4 host address */
+	Uint16 port;			/* 16-bit protocol port */
+} IPaddress;
+typedef struct _TCPsocket *TCPsocket;
+typedef struct _UDPsocket *UDPsocket;
+typedef struct {
+	int channel;		/* The src/dst channel of the packet */
+	Uint8 *data;		/* The packet data */
+	int len;		/* The length of the packet data */
+	int maxlen;		/* The size of the data buffer */
+	int status;		/* packet status after sending */
+	IPaddress address;		/* The source/dest address of an incoming/outgoing packet */
+} UDPpacket;
+
+typedef struct _SDLNet_SocketSet *SDLNet_SocketSet;
 
 CONST ULONG __abox__ = 1;
 __asm("\n.section \".ctdt\",\"a\",@progbits\n__ctdtlist:\n.long -1,-1\n");

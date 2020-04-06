@@ -71,4 +71,4 @@ clean:
 	rm -f $(LIBRARY) $(TARGET) $(OBJECTS) $(COREOBJECTS) *.db *.s
 
 dump:
-	ppc-morphos --disassemble-all --reloc $(LIBRARY).db >$(LIBRARY).s
+	ppc-morphos-objdump --disassemble-all --reloc $(LIBRARY).db >$(LIBRARY).s

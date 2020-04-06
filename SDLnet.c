@@ -103,6 +103,14 @@ int  SDLNet_Init(void)
             SDLNet_SetError("Couldn't initialize Winsock 1.1\n");
             return(-1);
         }
+#elif defined(AMIGA)
+		SocketBase = OpenLibrary("bsdsocket.library", 4);
+
+		if (!SocketBase)
+		{
+			SDLNet_SetError("Could not open bsdsocket.library\n");
+			return -1;
+		}
 #else
         /* SIGPIPE is generated when a remote socket is closed */
         void (*handler)(int);
@@ -131,6 +139,9 @@ void SDLNet_Quit(void)
                 WSACleanup();
             }
         }
+#elif defined(AMIGA)
+		CloseLibrary(SocketBase);
+		SocketBase = NULL;
 #else
         /* Restore the SIGPIPE handler */
         void (*handler)(int);
