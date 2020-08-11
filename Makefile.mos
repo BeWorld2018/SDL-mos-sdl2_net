@@ -7,7 +7,7 @@ INCLUDE = -I/usr/local/include/SDL2
 CFLAGS  = -mcpu=750 -O2 $(INCLUDE) -mresident32 -Wall -Wno-pointer-sign  -fno-strict-aliasing -fschedule-insns2 -ffast-math $(CDEFS)
 AR	= ppc-morphos-ar
 
-AMIGADATE = $(shell date +"%-d.%-m.%Y)
+AMIGADATE = $(shell date +"%-d.%-m.%Y")
 
 ECHE = echo -e
 BOLD = \033[1m
