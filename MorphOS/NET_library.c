@@ -20,9 +20,9 @@ STATIC CONST TEXT libname[] = "sdl2_net.library";
 
 struct ExecBase   *SysBase  = NULL;
 struct DosLibrary *DOSBase  = NULL;
-struct Library    *SDL2Base = NULL;
-struct Library *SocketBase = NULL;
-struct Library *SDL2NetBase = NULL;
+struct Library 		*SDL2Base = NULL;
+struct Library 		*SocketBase = NULL;
+struct Library 		*SDL2NetBase = NULL;
 
 /**********************************************************************
 	LIB_Reserved

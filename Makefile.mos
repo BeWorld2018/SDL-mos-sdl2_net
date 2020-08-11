@@ -1,11 +1,13 @@
 # Makefile to build the SDL2_NET library
 
 CDEFS   = -DAROS_ALMOST_COMPATIBLE -DUSE_INLINE_STDARG
-CC      = ppc-morphos-gcc-4 -noixemul
+CC      = ppc-morphos-gcc-9 -noixemul
 
 INCLUDE = -I../SDL-mos-sdl2/include
-CFLAGS  = -mcpu=750 -O2 $(INCLUDE) -mresident32 -Wall -Wno-pointer-sign -fno-strict-aliasing -mfused-madd -fschedule-insns2 -ffast-math $(CDEFS)
+CFLAGS  = -mcpu=750 -O2 $(INCLUDE) -mresident32 -Wall -Wno-pointer-sign  -fno-strict-aliasing -fschedule-insns2 -ffast-math $(CDEFS)
 AR	= ppc-morphos-ar
+
+AMIGADATE = $(shell date +"%-d.%-m.%Y)
 
 ECHE = echo -e
 BOLD = \033[1m
@@ -51,7 +53,7 @@ install: $(LIBRARY)
 
 MorphOS/NET_library.o: MorphOS/NET_library.c MorphOS/NET_library.h MorphOS/NET_stubs.h
 	$(COMPILING)
-	$(CC) -mcpu=750 -O2 $(INCLUDE) -Wall -fno-strict-aliasing -DAROS_ALMOST_COMPATIBLE -o $@ -c $*.c
+	$(CC) -mcpu=750 $(INCLUDE) -Wall -fno-strict-aliasing -D__AMIGADATE__=\"$(AMIGADATE)\" -DAROS_ALMOST_COMPATIBLE -o $@ -c $*.c
 
 $(TARGET): $(OBJECTS)
 	$(ARCHIVING)
@@ -59,21 +61,21 @@ $(TARGET): $(OBJECTS)
 
 $(LIBRARY): $(TARGET) $(COREOBJECTS)
 	$(LINKING)
-	$(CC) -nostartfiles -mresident32 -Wl,-Map=sdl2_net.map $(COREOBJECTS) -o $@.db -L. -lSDL2_net -L../SDL-mos-sdl2/src/core/morphos/devenv/lib -lSDL2 -lm -ldebug
+	$(CC) -nostartfiles -O0 -mresident32 -Wl,-Map=sdl2_net.map $(COREOBJECTS) -o $@.db -L. -lSDL2_net -L../SDL-mos-sdl2/src/core/morphos/devenv/lib -lSDL2 -lm
 	$(STRIPPING)
 	@ppc-morphos-strip -o $@ --remove-section=.comment $@.db
 
 showinterfaces: showinterfaces.c
 	$(COMPILING)
-	$(CC) -noixemul -O2 -Wall -o $@ $@.c -I. -I../SDL-mos-sdl2/include -DUSE_INLINE_STDARG -LMorphOS/devenv/lib -L../SDL-mos-sdl2/src/core/morphos/devenv/lib -lSDL2_net -lSDL2 
+	$(CC) -O2 -Wall -o $@ $@.c -I. -I../SDL-mos-sdl2/include -DUSE_INLINE_STDARG -LMorphOS/devenv/lib -L/usr/local/lib -lSDL2_net -lSDL2 
 
 test_server: test_server.c
 	$(COMPILING)
-	$(CC) -noixemul -O2 -Wall -o $@ $@.c -I. -I../SDL-mos-sdl2/include -DUSE_INLINE_STDARG -LMorphOS/devenv/lib -L../SDL-mos-sdl2/src/core/morphos/devenv/lib -lSDL2_net -lSDL2 
+	$(CC) -O2 -Wall -o $@ $@.c -I. -I../SDL-mos-sdl2/include -DUSE_INLINE_STDARG -LMorphOS/devenv/lib -L/usr/local/lib -lSDL2_net -lSDL2 
 	
 test_client: test_client.c
 	$(COMPILING)
-	$(CC) -noixemul -O2 -Wall -o $@ $@.c -I. -I../SDL-mos-sdl2/include -DUSE_INLINE_STDARG -LMorphOS/devenv/lib -L../SDL-mos-sdl2/src/core/morphos/devenv/lib -lSDL2_net -lSDL2 
+	$(CC) -O2 -Wall -o $@ $@.c -I. -I../SDL-mos-sdl2/include -DUSE_INLINE_STDARG -LMorphOS/devenv/lib -L/usr/local/lib -lSDL2_net -lSDL2 
 	
 
 clean:
