@@ -1,7 +1,7 @@
 # Makefile to build the SDL2_net library 
 
-CC      = ppc-morphos-gcc-4 -noixemul -cstd=c99
-INCLUDE = -I../../../../include -I../sdk
+CC      = ppc-morphos-gcc-9 -noixemul
+INCLUDE =  -I../sdk
 CFLAGS  =  -mcpu=750 -mtune=7450 -O2 $(INCLUDE) -Wall -Wno-pointer-sign -fno-strict-aliasing
 AR	= ppc-morphos-ar
 TARGET = libSDL2_net.a

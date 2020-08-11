@@ -159,8 +159,8 @@ static BPTR DeleteLib(struct SDL2NetLibrary *LibBase, struct ExecBase *SysBase)
 
 static void UserLibClose(struct SDL2NetLibrary *LibBase, struct ExecBase *SysBase)
 {
-	CloseLibrary(SDL2Base);
-	SDL2Base = NULL;
+	//CloseLibrary(SDL2Base);
+	//SDL2Base = NULL;
 	CloseLibrary(SocketBase);
 	SocketBase = NULL;
 }
@@ -255,14 +255,14 @@ struct Library *LIB_Open(void)
 
 	if (LibBase->Alloc == 0)
 	{
-		if (((SDL2Base = OpenLibrary("sdl2.library",  0)) != NULL))
-		{
+		/*if (((SDL2Base = OpenLibrary("sdl2.library",  0)) != NULL))
+		{*/
 			LibBase->Alloc = 1;		
-		}
+		/*}
 		else
 		{
 			goto error;
-		}
+		}*/
 	}
 
 	if ((newbase = AllocVecTaskPooled(MyBaseSize + LibBase->DataSize + 15)) != NULL)
